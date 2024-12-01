@@ -19,3 +19,14 @@
     background-color: #d32f2f !important; /* Darker Red */
     color: white !important;
 }
+.highlight {
+    background: linear-gradient(
+        90deg,
+        #57cc99,
+        #80ed99
+    ); /* Adjust colors as needed */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Makes the text fill transparent */
+    background-clip: text; /* For non-WebKit browsers */
+    font-weight: bold; /* Make it bold */
+}

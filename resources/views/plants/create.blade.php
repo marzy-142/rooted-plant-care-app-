@@ -51,7 +51,7 @@
 
     <div class="mb-3">
         <label for="picture" class="form-label">Plant Picture</label>
-        <input type="file" class="form-control" id="picture" name="picture">
+        <input type="file" class="form-control" id="picture" name="picture" accept="image/*">
 
         @if(isset($plant) && $plant->picture)
             <div class="mt-2">
